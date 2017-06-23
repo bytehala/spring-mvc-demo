@@ -8,7 +8,11 @@
 </head>
 <body>
 
-	Hello ${param.studentName}
+Student name: ${param.studentName}
+
+<br><br>
+
+${message}
 
 </body>
 </html>
