@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spring MVC Demo - Home Page</title>
+<title>Silly Title</title>
 </head>
 <body>
-	<a href="hello/showForm">Hello World Form</a>
 	
-	
+	This is the silly controller.
+
 </body>
 </html>
