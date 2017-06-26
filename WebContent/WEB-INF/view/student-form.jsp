@@ -27,6 +27,11 @@ Favorite language:
 	Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />
 	C# <form:radiobutton path="favoriteLanguage" value="C#" /> 
 <br><br>
+Familiar with OS:
+	 <form:checkbox path="familiarOs" value="Mac OS" /> Mac
+	 <form:checkbox path="familiarOs" value="Windows" /> Windows
+	 <form:checkbox path="familiarOs" value="Linux" /> Linux
+<br><br>
 <button type="submit" > Submit </button>
 </form:form>
 

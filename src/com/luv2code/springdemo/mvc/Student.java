@@ -8,6 +8,7 @@ public class Student {
 	private String lastName;
 	private String country;
 	private String favoriteLanguage;
+	private String[] familiarOs;
 	
 	private LinkedHashMap<String, String> countryOptions;
 	
@@ -50,6 +51,14 @@ public class Student {
 
 	public void setFavoriteLanguage(String favoriteLanguage) {
 		this.favoriteLanguage = favoriteLanguage;
+	}
+
+	public String[] getFamiliarOs() {
+		return familiarOs;
+	}
+
+	public void setFamiliarOs(String[] favoriteOs) {
+		this.familiarOs = favoriteOs;
 	}
 
 }
