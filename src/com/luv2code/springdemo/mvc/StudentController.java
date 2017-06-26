@@ -16,11 +16,11 @@ public class StudentController {
 		Student theStudent = new Student();
 		
 		// add student object to the model
-		theModel.addAttribute("student", theStudent); // use the same modelAttribute name in jsp as modelAttribute
+		theModel.addAttribute("student", theStudent); // use the same string as "modelAttribute" name in jsp
 		return "student-form";
 	}
 	
-	@RequestMapping("/processForm") // Should be the same string in the action attribute of the form
+	@RequestMapping("/processForm") // Should be the same string in the "action" attribute of the form
 	public String processForm(@ModelAttribute("student") Student theStudent) {
 		return "student-confirmation";
 	}
