@@ -15,6 +15,8 @@ public class StudentController {
 		// create a student object
 		Student theStudent = new Student();
 		
+		theStudent.setFirstName("First Name");
+		
 		// add student object to the model
 		theModel.addAttribute("student", theStudent); // use the same string as "modelAttribute" name in jsp
 		return "student-form";
