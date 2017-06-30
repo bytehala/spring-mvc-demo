@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Student Confirmation</title>
+<title>Customer Confirmation</title>
 </head>
 <body>
 
@@ -14,6 +14,10 @@ The customer is confirmed: ${customer.firstName} ${customer.lastName}
 <br><br>
 
 Free passes: ${customer.freePasses}
+
+<br><br>
+
+Postal code: ${customer.postalCode}
 
 </body>
 </html>
