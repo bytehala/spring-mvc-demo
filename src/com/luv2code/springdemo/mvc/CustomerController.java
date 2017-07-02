@@ -34,6 +34,11 @@ public class CustomerController {
 									// attribute of the form
 	public String processForm(@Valid @ModelAttribute("customer") Customer theCustomer, BindingResult result) {
 
+		// This will print out the error codes you can use from most specific to least:
+		// e.g. codes [typeMismatch.customer.freePasses,typeMismatch.freePasses,typeMismatch.java.lang.Integer,typeMismatch]
+		System.out.println("Binding result: " + result);
+		
+		
 		if (result.hasErrors()) {
 			return "customer-form";
 		} else {
