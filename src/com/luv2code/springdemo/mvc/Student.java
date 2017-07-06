@@ -4,10 +4,28 @@ import java.util.LinkedHashMap;
 
 public class Student {
 	
+	private long id;
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
 	private String firstName;
 	private String lastName;
 	private String country;
 	private String favoriteLanguage;
+	private String email;
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	private String[] familiarOs;
 	
 	private LinkedHashMap<String, String> countryOptions;
