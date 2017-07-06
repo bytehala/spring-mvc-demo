@@ -24,7 +24,7 @@ public class StudentTest {
         //db = new EmbeddedDatabaseBuilder().addDefaultScripts().build();
     	db = new EmbeddedDatabaseBuilder()
     		.setType(EmbeddedDatabaseType.HSQL)
-    		.addScript("resources/db/sql/student.sql")
+    		.addScript("db/sql/student.sql")
     		.build();
     }
 
